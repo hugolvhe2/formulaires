@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Parcel Sandbox</title>
+		<meta charset="UTF-8" />
+  </head>
+
+
+  <body>
+	
+			<div class="instructions">
+					<h1>Formulaires</h1>
+					<h2>instructions</h2>
+
+					<p> 
+							Créez un formulaires avec : 
+							<ul>
+								<li>un input type text avec le label prenom</li>
+								<li>un input type number avec le label age</li>
+								<li>un input type checkbox avec le label majeur(e), cette case doit être cochée par défaut</li>
+								<li>un input type radio avec deux choix possibles: "j'ai un chien" et "je n'ai pas de chien"</li>
+								<li>un input type range avec une échelle comprise entre 0 et 38, avec le label "il fait chaud ?" </li>
+								<li>un input type text avec la valeur "Coucou" déjà écrite dedans</li>
+					
+							</ul>
+						</p>
+			</div>
+					<div class="result">
+							<h2>Résultat</h2>
+						<form action="" method="POST">
+							<label for="prenom">Prénom</label>
+							<input type="text">
+						</br></br></br>
+						
+						<label for="age">Age</label>
+						<input type="number" id="age" name="age">
+					</br></br></br>
+						
+					<label for="majeur">Majeur</label>
+					<input type="checkbox" checked="on" id="majeur" name="majeur">
+				</br></br></br>
+					
+					<input type="radio" id="a_un_chien" name="chien">
+					<label for="a_un_chien">J'ai un chien</label>
+				</br></br></br>
+				
+					<input type="radio" id="pas_de_chien" name="chien">
+					<label for="pas_de_chien">Je n'ai pas de chien</label>
+				</br></br></br>
+
+					<label for="temperature">Il fait chaud ?</label>
+				</br>
+					<input type="range" id="temperature" name="temperature" min="0" max = "38" list="tickmarks">
+						<datalist id="tickmarks">
+							<option value="1" label="0%">
+							<option value="10" label="10%">
+							<option value="20" label="20%">
+							<option value="30" label="0">
+							<option value="38" label="38">		
+						</datalist>
+				</br></br></br>
+					
+					<input type="text" id="" name="" value="Coucou">	
+			</form>
+		</div>
+	</body>
+</html>
